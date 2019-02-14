@@ -1,0 +1,146 @@
+/* All */
+* {
+  box-sizing: border-box;
+} 
+
+/* Title */
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 50px;
+}
+
+/* Boxes */
+.box {
+  position: relative;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 90%;
+  font-family: Helvetica;
+  font-color: black;
+}
+
+/* Subtitles */
+a {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 40px;
+  width: 100px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-size: 33px;
+}
+#coke {
+  background-color: red;
+}
+#sprite {
+  background-color: lightgreen;
+}
+#fanta {
+  background-color: darkorange;
+}
+
+/* Content */
+b {
+  position: absolute;
+  top:50px;
+  left: 5%;
+  width: 90%;
+  font-size: 20px;
+}
+
+/* Responsive Framework */
+.row {
+  width: 90%;
+  margin:auto;
+}
+
+/* For desktop */
+@media (min-width:992px) {
+  .col-dsk {
+    float: left;
+    width: 33.33%;
+    height: 550px;
+  }
+  @media (min-width:1110px) {
+    .col-dsk {
+      height: 450px;
+    }
+    @media (min-width:1270px) {
+      .col-dsk {
+        height: 400px;
+      }
+      @media (min-width:1468px) {
+        .col-dsk {
+          height: 350px;
+        }
+      }
+    }
+  }
+}
+
+/* For tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tbl-up {
+    float: left;
+    width: 50%;
+    height: 450px;
+  }
+  .col-tbl-down {
+    float: left;
+    width: 100%;
+    height: 210px;
+  }
+  @media(min-width: 896px) {
+    .col-tbl-up {
+      height: 380px;
+    }
+  }
+  .fantabox {
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 95%;
+    font-family: Helvetica;
+    font-color: black;
+  }
+}  
+
+/* For mobile */
+@media (min-width: 300px) and (max-width: 767px) {
+  .col-mb{
+    height: 560 ;
+  }
+  @media (min-width: 366px){
+  .col-mb {
+    height: 500px;
+  }
+    @media (min-width: 400px){
+    .col-mb {
+      height: 430px;
+    }
+      @media (min-width: 460px) {
+        .col-mb {
+          height: 380px;
+        }
+        @media (min-width: 542px) {
+          .col-mb {
+            height: 325px;
+          }
+          @media (min-width: 648px) {
+            .col-mb {
+              height: 280px;
+            }
+            @media (min-width: 400px)
+          }
+        }
+      }
+    }
+  }
+}
