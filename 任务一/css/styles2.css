@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+#header-nav {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #202020;
+	border: none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#navbar {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+/*Headline*/
+.navbar-brand {
+	margin:auto !important;
+	float: none;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+	font-family: "Kanit",sans-serif;
+	font-weight: bold;
+	font-size: 46px;
+	color: white;
+	text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	color: #BEBEBE;
+}
+/*Info*/
+#language {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+#artist {
+	position: absolute;
+	left: 20px;
+	top: 10px;	
+}
+#artist a, #language a {
+	color: white;
+	font-family: sans-serif;
+}
+/*Hide Bruce*/
+@media(max-width: 1250px) {
+	#bruce {
+		display: none;
+	}
+}
+
+#p4 {
+	position: relative;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	border: 0px;
+	padding: 0px;
+}
+#passage {
+	width: 90%;
+	margin: auto;
+	float: none;
+}
+p {
+	font-family: "Times",serif;
+	font-size: 25px;
+}
+#ok {
+	height: 100px;
+	width: 100%；
+}
+#fine {
+	padding: 0px;
+}

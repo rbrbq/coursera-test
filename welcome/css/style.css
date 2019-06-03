@@ -1,0 +1,240 @@
+*{
+	box-sizing: border-box;
+	border:0;
+	padding: 0;
+	margin: 0;
+}
+
+/*For desktop*/
+@media (min-width:992px){
+/*Margin*/
+#top{
+	position: absolute;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.03;
+}
+#left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1600px;
+	width: 15%;
+	background-color: black;
+	opacity: 0.03;
+}
+#right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 1600px;
+	width: 15%;
+	background-color: black;
+	opacity: 0.03;
+}
+#bottom{
+	position: absolute;
+	top: 1520px;
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.03;
+}
+
+/*head*/
+#head {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*Decorations: light and thread*/
+#light-possition{
+	position: absolute;
+	top:-180px;
+	left: 50%;
+	margin-left: -90px;
+	z-index: 99;
+}
+#light-shadow-possition{
+	position: absolute;
+	top:-170px;
+	left: 53%;
+	margin-left: -90px;
+	z-index: 9;
+}
+.light{
+	width: 180px;
+}
+
+#thread-possition{
+	position: absolute;
+	top:-130px;
+	right: 12%;
+	margin-right: -3.5px;
+	z-index: 99;
+}
+#thread-shadow-possition{
+	position: absolute;
+	top:-120px;
+	right: 10%;
+	margin-right: -3.5px;
+	z-index: 9;
+}
+.thread{
+	width: 30px;
+}
+.blur{
+	opacity: 0.15;
+	filter: blur(3px);
+}
+
+
+/*Slogan*/
+#slogan{
+	margin-top: 280px;
+	width: 100%;
+}
+.words{
+	font-size: 30px;
+	font-family: serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-indent: 1em;
+	text-align: center;
+}
+
+
+/*Main*/
+#container{
+	margin-top: 30px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row{
+	width: 90%;
+	margin: auto;
+/*	background-color: yellow;*/
+}
+.big-box{
+	position: relative;
+	float: left;
+	width: 50%;
+/*	background-color: red;*/
+	padding-top: 60%;
+}
+	/*Picture-frame*/
+.big-square{
+	position: absolute;
+	left: 10%;
+	top: 0;
+	width: 90%;
+	height: 80%;
+/*	background-color: blue;*/
+	margin: auto;
+}
+.big-pic{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#ht-pic{
+	width: 55%;
+}
+#kx-pic{
+	width: 100%;
+}
+.content{
+	position: absolute;
+	padding-top: 5%;
+	left: 10%;
+	bottom: 0;
+	width: 90%;
+	height: 20%;
+	margin:auto;
+	font-size: 1.4vw;
+/*	background-color: yellow;*/
+}
+.big-box h2{
+	font-size: 1.9vw;
+	padding-bottom: 5px;
+}
+/*Small content*/
+.small-box{
+	margin-top: 30px;
+	position: relative;
+	float: left;
+	width: 25%;
+/*	background-color: red;*/
+	padding-top: 26%;
+}
+.small-square{
+	position: absolute;
+	left: 20%;
+	top: 0;
+	width: 80%;
+	height: 80%;
+/*	background-color: blue;*/
+	margin: auto;
+}
+.small-content{
+	position: absolute;
+	padding-top: 30px;
+	left: 20%;
+	bottom: 0;
+	width: 90%;
+	height: 20%;
+	margin:auto;
+/*	background-color: yellow;*/
+}
+.small-box h2{
+	font-size: 1.5vw;
+	padding-bottom: 5px;
+}
+.small-pic{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	-webkit-transition: transform 0.75s;
+	transition:  transform 0.75s;
+}
+.small-pic:hover{
+	transform: scale(1.1,1.1);
+	transition-timing-function: ease-out;
+}
+#lk-pic{
+	width: 70%;
+	box-shadow: 3px 3px 5px #C0C0C0;
+}
+#nano-pic{
+	width: 90%;
+	box-shadow: 3px 3px 5px #C0C0C0
+}
+#yyh-pic{
+	width: 90%;
+	bottom: -5%;
+}
+#zxr-pic{
+	width: 100%;
+	bottom: -20%;
+	left: -15%;
+}
+.footer{
+	position: absolute;
+	top: 1550px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+}

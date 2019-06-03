@@ -1,0 +1,160 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+/*Navbar*/
+#header-nav {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #202020;
+	border: none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#navbar {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+/*Headline*/
+.navbar-brand {
+	margin:auto !important;
+	float: none;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+	font-family: "Kanit",sans-serif;
+	font-weight: bold;
+	font-size: 46px;
+	color: white;
+	text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	color: #BEBEBE;
+}
+/*Info*/
+#language {
+	position: absolute;
+	right: 20px;
+	top: 14px;
+}
+#artist {
+	position: absolute;
+	left: 20px;
+	top: 14px;	
+}
+#artist a, #language a {
+	color: white;
+	font-family: sans-serif;
+}
+/*Hide Bruce*/
+@media(max-width: 1250px) {
+	#bruce {
+		display: none;
+	}
+}
+/*Main content*/
+.row {
+	width: 90%;
+	margin: auto;
+}
+.pic {
+	width: 100%;
+}
+.name {
+	font-size: 25px;
+	color: white;
+	font-family: "Oxygen",sans-serif;
+	background-color: black;
+	text-align: left;
+	border: 0px;
+	margin-top: 12px; 
+}
+.name:focus, .name:hover {
+	border: 0px;
+	color: #BEBEBE;
+}
+.dropdown-menu {
+	position: relative;
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	float: left;
+	left: auto;
+	padding: 6px 12px;
+	font-size: 1.3em;
+	font-family: "Times",serif;
+	line-height: 1.3em;
+	border: none;
+}
+#p2 {
+	width: 100%;
+}
+#tile2, #tile3 {
+	float: bottom;
+	display: block;
+	position: relative;
+	margin-top: -40px;
+}
+.tile {
+	position: relative;
+	background-color: black;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+#slogan {
+	text-align: center;
+	font-family: "Times",serif;
+	font-size: 28px;
+	font-style: italic;
+}
+#description {
+	text-align: center;
+	font-family: "Times",serif;
+	font-size: 23px;
+}
+#h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Alegreya Sans SC",sans-serif;
+	font-weight: bold;
+	margin-top: 80px;
+}
+.clickfor {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: italic;
+}
+#place {
+	height: 200px;
+	width: 100%；
+}
+#p4 {
+	position: relative;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	border: 0px;
+	padding: 0px;
+}
+#passage {
+	width: 90%;
+	margin: auto;
+	float: none;
+}
+p {
+	font-family: "Times",serif;
+	font-size: 25px;
+}
+#ok {
+	height: 100px;
+	width: 100%；
+}
+#fine {
+	padding: 0px;
+}
+
